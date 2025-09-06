@@ -1,7 +1,0 @@
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-resources:
-  - github.com/Tracel-web-project/User-service//k8s?ref=dev
-images:
-  - name: sheethalshobi/user-service
-    newTag: dev-latest
