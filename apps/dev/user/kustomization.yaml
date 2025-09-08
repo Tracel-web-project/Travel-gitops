@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
   - github.com/Tracel-web-project/User-service//k8s?ref=main
 images:
-  - name: sheethalshobi/frontend
+  - name: sheethalshobi/user-service
     newTag: dev-latest
