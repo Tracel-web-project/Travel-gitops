@@ -6,3 +6,4 @@ resources:
   - ../holidays
   - ../recommend
   - ../user
+  - ../ingress
