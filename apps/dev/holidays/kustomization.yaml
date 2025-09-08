@@ -1,7 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - github.com/Tracel-web-project/Holiday-service//k8s?ref=main
+- github.com/Tracel-web-project/Holiday-service//k8s?ref=main
 images:
-  - name: sheethalshobi/holiday-service
-    newTag: dev-latest
+- name: sheethalshobi/holiday-service
+  newName: sheethalshobi/holiday-service
+  newTag: 868a12aebc6db11b797f5ea19c4ea99ad5e70188
