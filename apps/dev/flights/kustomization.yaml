@@ -1,7 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - github.com/Tracel-web-project/Flights-service//k8s?ref=main
+- github.com/Tracel-web-project/Flights-service//k8s?ref=main
 images:
-  - name: sheethalshobi/flight-service
-    newTag: dev-latest
+- name: sheethalshobi/flight-service
+  newName: sheethalshobi/flight-service
+  newTag: f19554e615b368ad819d3430f972bb9cbf101047
