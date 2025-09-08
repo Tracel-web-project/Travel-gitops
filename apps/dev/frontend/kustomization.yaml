@@ -1,7 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - github.com/Tracel-web-project/Frontend-service//k8s?ref=main
+- github.com/Tracel-web-project/Frontend-service//k8s?ref=main
 images:
-  - name: sheethalshobi/frontend
-    newTag: dev-latest
+- name: sheethalshobi/frontend
+  newTag: dev-latest
+- name: sheethalshobi/frontend-service
+  newName: sheethalshobi/frontend-service
+  newTag: 4a8b0c17ec3ef2a1e5335985123e51f4b3d2ec75
