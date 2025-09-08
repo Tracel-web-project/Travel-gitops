@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: holidays-dev     # your app name
+  namespace: argocd      # ArgoCD’s namespace
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/Tracel-web-project/Travel-gitops.git
+    targetRevision: main
+    path: apps/dev/holidays
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default   # change if you use custom namespaces
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
