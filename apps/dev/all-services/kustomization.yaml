@@ -7,3 +7,4 @@ resources:
   - ../recommend
   - ../user
   - ../ingress
+  - ../monitoring
