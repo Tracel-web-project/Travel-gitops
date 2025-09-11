@@ -5,4 +5,6 @@ resources:
 images:
 - name: sheethalshobi/flight-service
   newName: sheethalshobi/flight-service
-  newTag: fbe3cf118acd26fe2bef5f4e6c9d6091fe8c19c4
+  newTag: 35a36ba5e97772df4eccf3e6e4edc2d63868b04f
+
+ 
