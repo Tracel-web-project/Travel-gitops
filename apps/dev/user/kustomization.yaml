@@ -5,4 +5,4 @@ resources:
 images:
 - name: sheethalshobi/user-service
   newName: sheethalshobi/user-service
-  newTag: f862f0d876672e6cc20ca9f5e03c8a8fd26fd68b
+  newTag: 6f596f2e2de497ef65f87cf4e0b4dbf0ce5e454d
