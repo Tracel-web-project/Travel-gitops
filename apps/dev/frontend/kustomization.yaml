@@ -7,4 +7,4 @@ images:
   newTag: dev-latest
 - name: sheethalshobi/frontend-service
   newName: sheethalshobi/frontend-service
-  newTag: 4a8b0c17ec3ef2a1e5335985123e51f4b3d2ec75
+  newTag: 87da3310206212072b6f8c2cf4fd4fc5363f8b6f
