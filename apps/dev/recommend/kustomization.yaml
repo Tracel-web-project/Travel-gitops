@@ -5,4 +5,4 @@ resources:
 images:
 - name: sheethalshobi/recommend-service
   newName: sheethalshobi/recommend-service
-  newTag: 71e2b66539d143a2aac531bf9778c59321b2a99b
+  newTag: ca6c16a3d6e7617982eefc597223eea3e90a7c56
