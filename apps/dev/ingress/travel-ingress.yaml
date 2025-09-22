@@ -44,7 +44,7 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: holiday-service
+            name: holidays-service
             port:
               number: 5002
 
