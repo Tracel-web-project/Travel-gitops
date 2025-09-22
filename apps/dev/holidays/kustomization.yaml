@@ -4,5 +4,4 @@ resources:
 - github.com/Tracel-web-project/Holiday-service//k8s?ref=main
 images:
 - name: sheethalshobi/holiday-service
-  newName: sheethalshobi/holiday-service
   newTag: 7e10cc07cd2342381fb74081abd7a897ff1bdb74
