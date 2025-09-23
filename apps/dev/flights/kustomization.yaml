@@ -4,5 +4,5 @@ resources:
 - github.com/Tracel-web-project/Flights-service//k8s?ref=main
 images:
 - name: sheethalshobi/flight-service
-  newName: sheethalshobi/flight-service
   newTag: bb78bf5168a594a16615b02ea016b9b5ec5ceb48
+
