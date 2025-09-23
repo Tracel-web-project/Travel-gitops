@@ -5,4 +5,4 @@ resources:
 images:
 - name: sheethalshobi/holiday-service
   newName: sheethalshobi/holiday-service
-  newTag: b4ca4ca4193ce6754748bd29c91b05da8b9db439
+  newTag: 698e8dce48aeb637331fbd7bb1a51d657bdd37d1
